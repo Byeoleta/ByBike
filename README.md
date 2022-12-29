@@ -18,5 +18,7 @@
 
 - GSAP
 
+- emotion
+
 - react-device-detect
 
