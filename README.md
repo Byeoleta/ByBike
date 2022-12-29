@@ -18,3 +18,5 @@
 
 - GSAP
 
+- react-device-detect
+
