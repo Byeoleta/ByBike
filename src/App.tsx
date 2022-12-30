@@ -6,8 +6,16 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <BrowserView>데스크톱브라우져!</BrowserView>
-        <MobileView>모바일 브라우져!</MobileView>
+        <BrowserView>
+          <div>
+            <h1>ByBike</h1>
+          </div>
+        </BrowserView>
+        <MobileView>
+          <div>
+            <h1>ByBike</h1>
+          </div>
+        </MobileView>
       </header>
     </div>
   );
