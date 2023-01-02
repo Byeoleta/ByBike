@@ -1,0 +1,166 @@
+import { css } from '@emotion/react';
+
+export const AppStyle = css`
+  html,
+  div,
+  span,
+  applet,
+  object,
+  iframe,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  pre,
+  a,
+  abbr,
+  acronym,
+  address,
+  big,
+  cite,
+  code,
+  del,
+  dfn,
+  em,
+  img,
+  ins,
+  kbd,
+  q,
+  s,
+  samp,
+  small,
+  strike,
+  strong,
+  sub,
+  sup,
+  tt,
+  var,
+  b,
+  u,
+  i,
+  center,
+  dl,
+  dt,
+  dd,
+  ol,
+  ul,
+  li,
+  fieldset,
+  form,
+  label,
+  legend,
+  table,
+  caption,
+  tbody,
+  tfoot,
+  thead,
+  tr,
+  th,
+  td,
+  article,
+  aside,
+  canvas,
+  details,
+  embed,
+  figure,
+  figcaption,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  output,
+  ruby,
+  section,
+  summary,
+  time,
+  mark,
+  audio,
+  video {
+    margin: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    font-family: 'NanumSquare', sans-serif;
+    vertical-align: baseline;
+  }
+  body {
+    margin: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    font-family: 'NanumSquare', sans-serif;
+    vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  section {
+    display: block;
+  }
+  ol,
+  ul {
+    list-style: none;
+    padding: 0px;
+  }
+  blockquote,
+  q {
+    quotes: none;
+  }
+  blockquote:before,
+  blockquote:after,
+  q:before,
+  q:after {
+    content: '';
+    content: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  body,
+  html {
+    line-height: 1;
+    width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+  }
+
+  .container {
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .pc_con {
+    display: block;
+  }
+
+  .m_con {
+    display: none;
+  }
+  @media screen and (max-width: 1080px) {
+    .container {
+      width: 100%;
+      padding: 0px;
+      margin: 0 auto;
+    }
+    .m_con {
+      display: block !important;
+    }
+    .pc_con {
+      display: none !important;
+    }
+  }
+`;
